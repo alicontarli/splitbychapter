@@ -2,6 +2,8 @@
 
 A modern web application for splitting PDF files by chapters and sections. Upload a PDF, extract and select specific chapters from the table of contents, and download separate PDFs for each selected chapter as a ZIP file.
 
+**🌐 [Live Demo](https://splitbychapter.vercel.app/)** | **📦 [GitHub Repo](https://github.com/alicontarli/splitbychapter)**
+
 ## Features
 
 ✨ **Core Functionality**

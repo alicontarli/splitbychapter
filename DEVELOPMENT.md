@@ -14,8 +14,8 @@ This document provides detailed setup and development instructions for contribut
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pdf-chapter-splitter.git
-cd pdf-chapter-splitter
+git clone https://github.com/yourusername/splitbychapter.git
+cd splitbychapter
 ```
 
 ### 2. Install Dependencies
@@ -26,10 +26,8 @@ npm install
 
 ### 3. Start Development Server
 
-**Important:** Use the `&` operator in PowerShell:
-
-```powershell
-& "C:\Program Files\nodejs\npm" run dev
+```bash
+npm run dev
 ```
 
 Visit `http://localhost:3000` to see the app.
@@ -324,11 +322,13 @@ import { foo } from '../lib/utils';
 - `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 - Search "TypeScript: Restart TS Server"
 
-### Issue: "node is not recognized"
+### Issue: "npm is not recognized"
 
-**Solution:** Use PowerShell's call operator:
+**Solution 1:** Add Node.js to PATH and restart PowerShell/Command Prompt
+
+**Solution 2:** Use full path:
 ```powershell
-& "C:\Program Files\nodejs\npm" run dev
+"C:\Program Files\nodejs\npm" run dev
 ```
 
 ## Contributing Guidelines
@@ -347,9 +347,9 @@ Follow these in PRs:
 
 ## Contact & Support
 
-- For questions: Open a GitHub Discussion
-- For bugs: Open a GitHub Issue
-- For security issues: Email security@example.com
+- For questions: Open a [GitHub Discussion](https://github.com/alicontarli/splitbychapter/discussions)
+- For bugs: Open a [GitHub Issue](https://github.com/alicontarli/splitbychapter/issues)
+- For security issues: Open a [private vulnerability report](https://github.com/alicontarli/splitbychapter/security/advisories)
 
 ---
 
